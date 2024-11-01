@@ -1,0 +1,2802 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: zovonto\n"
+"POT-Creation-Date: 2019-06-20 18:24+0530\n"
+"PO-Revision-Date: 2018-04-27 12:20+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_TW\n"
+"X-Poedit-KeywordsList: __;__(;_e;_x;esc_html_e;esc_attr_e;esc_html__;esc_attr__\n"
+"X-Poedit-SearchPath-0: bsf.php\n"
+"X-Poedit-SearchPath-1: inc\n"
+
+#: inc/abstracts/class-bsf-settings-page.php:160
+msgid "Your settings have been saved"
+msgstr ""
+
+#: inc/abstracts/class-bsf-settings-page.php:176
+msgid "Your settings have been reset"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:63 inc/admin/class-bsf-admin-ajax.php:102
+#: inc/admin/class-bsf-admin-ajax.php:127
+#: inc/admin/class-bsf-admin-ajax.php:166
+#: inc/admin/class-bsf-admin-ajax.php:199
+#: inc/admin/class-bsf-admin-ajax.php:234
+#: inc/admin/class-bsf-admin-ajax.php:265
+#: inc/admin/class-bsf-admin-ajax.php:287
+#: inc/admin/class-bsf-admin-ajax.php:322
+#: inc/admin/class-bsf-admin-ajax.php:395
+#: inc/admin/class-bsf-admin-ajax.php:484
+#: inc/admin/class-bsf-admin-ajax.php:568
+#: inc/admin/class-bsf-admin-ajax.php:586
+#: inc/admin/class-bsf-admin-ajax.php:604
+#: inc/admin/class-bsf-admin-ajax.php:622
+#: inc/admin/class-bsf-admin-ajax.php:640
+#: inc/admin/class-bsf-admin-ajax.php:659
+#: inc/admin/class-bsf-admin-ajax.php:694
+#: inc/admin/class-bsf-admin-ajax.php:719
+#: inc/admin/class-bsf-admin-ajax.php:761
+#: inc/admin/class-bsf-admin-ajax.php:783
+#: inc/admin/class-bsf-admin-ajax.php:801
+msgid "Invalid Request"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:294
+msgid "The Selected Staff is linked with one or more Appointment(s). So, the staff can't be deleted"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:328
+msgid "Maximum 1 Staff can be created in the free version."
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:333
+msgid "User not exists"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:362
+msgid "Users"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:369
+msgid "Search a User"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:374
+msgid "ADD"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:402
+msgid "Maximum 5 Services can be created in the free version"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:420
+#: inc/admin/menu/views/services/services-edit.php:24
+#: inc/payment-gateways/offline/class-bsf-offline-gateway.php:45
+msgid "Title"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:424
+#: inc/admin/menu/views/services/services-edit.php:28
+msgid "Color"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:428
+#: inc/admin/menu/views/services/services-edit.php:32
+#: inc/frontend/views/booking/step-complete.php:25
+msgid "Price"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:432
+#: inc/admin/menu/views/services/services-edit.php:36
+#: inc/admin/menu/wp-list-table/class-bsf-appointments-table.php:126
+#: inc/frontend/class-bsf-lightbox.php:51
+msgid "Duration"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:443
+#: inc/admin/menu/views/services/services-edit.php:47
+msgid "Time Slot Length"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:454
+#: inc/admin/menu/views/services/services-edit.php:58
+#: inc/admin/menu/views/staff/general.php:37
+msgid "Info"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:460
+#: inc/admin/class-bsf-admin-assets.php:125
+#: inc/admin/menu/views/services/services-edit.php:65
+msgid "Save"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:536
+msgid "Please Select atleast one Service"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:662
+msgid "No Staff are assign for events"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:675
+msgid "Please select a Service"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:697
+msgid "Please select a slot"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:722
+msgid "First Name should not be empty"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:725
+msgid "Last Name should not be empty"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:728
+msgid "Email should not be empty"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:731
+msgid "Please enter a valid email"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:734
+msgid "Phone Number should not be empty"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:764
+msgid "Invalid Payment Method"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:813
+#: inc/admin/menu/views/calendar/action.php:48
+msgid "Close"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:816
+#: inc/admin/menu/wp-list-table/class-bsf-appointments-table.php:123
+#: inc/admin/menu/wp-list-table/class-bsf-payments-table.php:122
+msgid "ID"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:823
+#: inc/notifications/class-customer-appointment-approved.php:105
+#: inc/notifications/class-staff-appointment-approved.php:96
+msgid "Service Name"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:827
+#: inc/notifications/class-customer-appointment-approved.php:109
+msgid "Staff Name"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:832
+msgid "Start Date"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-ajax.php:840
+msgid "End Date"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-assets.php:64
+#: inc/notifications/class-customer-appointment-approved.php:141
+#: inc/notifications/class-staff-appointment-approved.php:136
+msgid "Shortcodes"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-assets.php:126
+msgid "Holiday"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-assets.php:127
+msgid "Repeat every year"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-assets.php:135
+msgid "Are you sure you want to delete this Staff?"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-assets.php:144
+msgid "Service(s) deleted successfully"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-assets.php:145
+msgid "Are you sure you want to proceed to delete the Service(s)?"
+msgstr ""
+
+#: inc/admin/class-bsf-admin-assets.php:146
+msgid "Settings saved successfully"
+msgstr ""
+
+#: inc/admin/menu/class-bsf-menu-management.php:43
+#: inc/admin/menu/views/html-settings.php:13
+#: inc/privacy/class-bsf-privacy.php:41
+msgid "Zovonto"
+msgstr ""
+
+#: inc/admin/menu/class-bsf-settings.php:442
+msgid "Day(s)"
+msgstr ""
+
+#: inc/admin/menu/class-bsf-settings.php:443
+msgid "Week(s)"
+msgstr ""
+
+#: inc/admin/menu/class-bsf-settings.php:444
+msgid "Month(s)"
+msgstr ""
+
+#: inc/admin/menu/class-bsf-settings.php:445
+msgid "Year(s)"
+msgstr ""
+
+#: inc/admin/menu/tabs/appointments.php:25
+#: inc/admin/menu/tabs/appointments.php:62
+msgid "Appointments"
+msgstr ""
+
+#: inc/admin/menu/tabs/appointments.php:66 inc/admin/menu/tabs/payments.php:82
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/admin/menu/tabs/appointments.php:70
+msgid "Search Appointments"
+msgstr ""
+
+#: inc/admin/menu/tabs/calendar.php:25
+msgid "Calendar"
+msgstr ""
+
+#: inc/admin/menu/tabs/calendar.php:196
+msgid "More"
+msgstr ""
+
+#: inc/admin/menu/tabs/help.php:24
+msgid "Help"
+msgstr ""
+
+#: inc/admin/menu/tabs/help.php:54
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin/menu/tabs/help.php:55
+msgid "Please check the documentation as we have lots of information there. The documentation file can be found inside the documentation folder which you will find when you unzip the downloaded zip file."
+msgstr ""
+
+#: inc/admin/menu/tabs/help.php:56
+msgid "Contact Support"
+msgstr ""
+
+#: inc/admin/menu/tabs/help.php:57
+#, php-format
+msgid "For support, feature request or any help, please %s register and open a support ticket on our site"
+msgstr ""
+
+#: inc/admin/menu/tabs/notifications.php:25
+#: inc/notifications/views/layout.php:10
+msgid "Notifications"
+msgstr ""
+
+#: inc/admin/menu/tabs/notifications.php:86
+msgid "Your settings have been saved."
+msgstr ""
+
+#: inc/admin/menu/tabs/notifications.php:106
+msgid "Your settings have been reset."
+msgstr ""
+
+#: inc/admin/menu/tabs/payments.php:26 inc/admin/menu/tabs/payments.php:75
+msgid "Payments"
+msgstr ""
+
+#: inc/admin/menu/tabs/payments.php:86
+msgid "Search Payments"
+msgstr ""
+
+#: inc/admin/menu/tabs/payments.php:126
+msgid "Cannot modify Payment ID"
+msgstr ""
+
+#: inc/admin/menu/tabs/payments.php:141
+msgid "Payment has been updated successfully."
+msgstr ""
+
+#: inc/admin/menu/tabs/services.php:25
+msgid "Services"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:25 inc/admin/menu/tabs/settings.php:681
+#: inc/admin/menu/tabs/settings.php:696 inc/class-bsf-install.php:63
+#: inc/notifications/views/layout.php:33
+msgid "Settings"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:41 inc/admin/menu/tabs/settings.php:97
+msgid "General Settings"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:45
+msgid "Working Hours"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:49
+msgid "Holidays"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:53
+msgid "Company"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:57
+msgid "Payment Settings"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:61 inc/admin/menu/tabs/settings.php:655
+msgid "Booking Form"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:90
+msgid "12 h"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:91
+msgid "1 day"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:92
+msgid "2 days"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:93
+msgid "3 days"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:101
+msgid "Time Slot Interval"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:104
+msgid "All the backend Time Slots will be displayed based on the value set in this option."
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:109
+msgid "Advanced Booking Period"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:112
+msgid "The maximum number of days a user can book for an appointment in advance"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:121
+#: inc/notifications/class-customer-appointment-approved.php:155
+#: inc/notifications/class-staff-appointment-approved.php:150
+msgid "Email Settings"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:125
+msgid "From Name"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:128
+msgid "This name will be used as the From Name for all Booking Related Emails."
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:132
+msgid "From Email"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:135
+msgid "This email will be used as the From Email for all Booking Related Emails."
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:178
+msgid "Company Settings"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:183
+msgid "Name"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:190
+#: inc/notifications/class-customer-appointment-approved.php:121
+msgid "Address"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:196
+msgid "Phone"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:202
+msgid "Website"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:225
+msgid "Currency Settings"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:230
+msgid "Currency"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:237
+msgid "Currency Symbol Position"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:241
+msgid "Left"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:242
+msgid "Right"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:243
+msgid "Left After a Space"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:244
+msgid "Right After a Space"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:249
+msgid "Decimal Separator"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:255
+msgid "Number of Decimals"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:261
+msgid "Thousand Separator"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:297
+msgid "Service Selection Customization"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:301 inc/admin/menu/tabs/settings.php:357
+#: inc/admin/menu/tabs/settings.php:395 inc/admin/menu/tabs/settings.php:487
+#: inc/admin/menu/tabs/settings.php:518
+msgid "Booking Step Label"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:307 inc/admin/menu/tabs/settings.php:363
+#: inc/admin/menu/tabs/settings.php:401 inc/admin/menu/tabs/settings.php:493
+#: inc/admin/menu/tabs/settings.php:524
+msgid "Booking Step Description"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:313
+msgid "Service Selector Label"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:319
+msgid "Calendar Selection Label"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:325
+msgid "Start Time Label"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:331
+msgid "End Time Label"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:352 inc/admin/menu/tabs/settings.php:390
+msgid "Time Selection Customization"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:369
+msgid "Time Slots Unavailable Error Message"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:407
+msgid "First Name Field Label"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:413
+msgid "Last Name Field Label"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:419
+msgid "Phone Field Label"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:425
+msgid "Email Field Label"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:431
+msgid "First Name Field Placeholder"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:437
+msgid "Last Name Field Placeholder"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:443
+msgid "Phone Field Placeholder"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:449
+msgid "Email Field Placeholder"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:455
+msgid "Display Notes Field"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:461
+msgid "Notes Field Label"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:482
+msgid "Payment Selection Customization"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:514
+msgid "Booking Completion"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:657
+msgid "Step Name"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:658 inc/admin/menu/tabs/settings.php:666
+msgid "Manage"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:679
+msgid "Payment Gateway"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:680
+msgid "Enabled"
+msgstr ""
+
+#: inc/admin/menu/tabs/settings.php:685
+msgid "Payment Gateways"
+msgstr ""
+
+#: inc/admin/menu/tabs/staff.php:25
+#: inc/admin/menu/wp-list-table/class-bsf-appointments-table.php:128
+#: inc/admin/menu/wp-list-table/class-bsf-payments-table.php:123
+#: inc/frontend/class-bsf-lightbox.php:59
+#: inc/frontend/views/booking/step-complete.php:21
+msgid "Staff"
+msgstr ""
+
+#: inc/admin/menu/tabs/staff.php:82
+msgid "Please enter valid a Email"
+msgstr ""
+
+#: inc/admin/menu/tabs/staff.php:98
+msgid "Staff has been updated successfully."
+msgstr ""
+
+#: inc/admin/menu/views/calendar/action.php:40
+msgid "Submit"
+msgstr ""
+
+#: inc/admin/menu/views/calendar/action.php:41
+msgid "Today"
+msgstr ""
+
+#: inc/admin/menu/views/calendar/month.php:7
+msgid "Appointments for the Month"
+msgstr ""
+
+#: inc/admin/menu/views/html-settings-buttons.php:10
+msgid "Save changes"
+msgstr ""
+
+#: inc/admin/menu/views/html-settings-buttons.php:20
+msgid "Reset"
+msgstr ""
+
+#: inc/admin/menu/views/payments-edit.php:9
+msgid "Edit Payment"
+msgstr ""
+
+#: inc/admin/menu/views/payments-edit.php:14
+#: inc/admin/menu/wp-list-table/class-bsf-payments-table.php:124
+#: inc/frontend/views/booking/step-complete.php:38
+msgid "Payment Method"
+msgstr ""
+
+#: inc/admin/menu/views/payments-edit.php:22
+#: inc/admin/menu/wp-list-table/class-bsf-appointments-table.php:127
+#: inc/admin/menu/wp-list-table/class-bsf-payments-table.php:125
+#: inc/frontend/class-bsf-lightbox.php:55
+#: inc/frontend/views/booking/step-complete.php:17
+msgid "Service"
+msgstr ""
+
+#: inc/admin/menu/views/payments-edit.php:30
+#: inc/admin/menu/wp-list-table/class-bsf-appointments-table.php:129
+#: inc/admin/menu/wp-list-table/class-bsf-payments-table.php:126
+#: inc/frontend/class-bsf-lightbox.php:63
+msgid "Customer"
+msgstr ""
+
+#: inc/admin/menu/views/payments-edit.php:38
+#: inc/admin/menu/wp-list-table/class-bsf-payments-table.php:127
+#: inc/notifications/class-customer-appointment-approved.php:113
+#: inc/notifications/class-staff-appointment-approved.php:100
+msgid "Appointment Date"
+msgstr ""
+
+#: inc/admin/menu/views/payments-edit.php:46
+#: inc/admin/menu/wp-list-table/class-bsf-payments-table.php:128
+msgid "Payment Date"
+msgstr ""
+
+#: inc/admin/menu/views/payments-edit.php:54
+#: inc/admin/menu/wp-list-table/class-bsf-payments-table.php:129
+msgid "Amount"
+msgstr ""
+
+#: inc/admin/menu/views/payments-edit.php:62
+#: inc/admin/menu/wp-list-table/class-bsf-appointments-table.php:130
+#: inc/admin/menu/wp-list-table/class-bsf-payments-table.php:130
+#: inc/frontend/class-bsf-lightbox.php:76
+msgid "Status"
+msgstr ""
+
+#: inc/admin/menu/views/payments-edit.php:68
+#: inc/admin/menu/wp-list-table/class-bsf-payments-table.php:165
+#: inc/bsf-layout-functions.php:465
+msgid "Pending"
+msgstr ""
+
+#: inc/admin/menu/views/payments-edit.php:69
+#: inc/admin/menu/wp-list-table/class-bsf-payments-table.php:166
+#: inc/bsf-layout-functions.php:469
+msgid "Completed"
+msgstr ""
+
+#: inc/admin/menu/views/payments-edit.php:70
+#: inc/admin/menu/wp-list-table/class-bsf-appointments-table.php:168
+#: inc/admin/menu/wp-list-table/class-bsf-payments-table.php:167
+#: inc/bsf-layout-functions.php:461
+msgid "Cancelled"
+msgstr ""
+
+#: inc/admin/menu/views/payments-edit.php:83
+msgid "Update Payment"
+msgstr ""
+
+#: inc/admin/menu/views/services/services-edit.php:11
+msgid "All Services"
+msgstr ""
+
+#: inc/admin/menu/views/services/services-edit.php:12
+msgid "Add Service"
+msgstr ""
+
+#: inc/admin/menu/views/services/services-edit.php:72
+#: inc/admin/menu/views/staff/general.php:16
+#: inc/admin/menu/views/staff/panels.php:15
+#: inc/admin/menu/wp-list-table/class-bsf-appointments-table.php:153
+#: inc/admin/menu/wp-list-table/class-bsf-payments-table.php:151
+msgid "Delete"
+msgstr ""
+
+#: inc/admin/menu/views/settings/working-hours.php:11
+msgid "These Working Hours will be used as the default Work timings of a Staff. If you want to customize the work timings of individual staff, then you can do so by customizing the same in Staff Settings."
+msgstr ""
+
+#: inc/admin/menu/views/settings/working-hours.php:23
+msgid "to"
+msgstr ""
+
+#: inc/admin/menu/views/staff/general.php:12
+msgid "Upload Image"
+msgstr ""
+
+#: inc/admin/menu/views/staff/general.php:15
+msgid "Upload"
+msgstr ""
+
+#: inc/admin/menu/views/staff/general.php:25
+msgid "Fullname"
+msgstr ""
+
+#: inc/admin/menu/views/staff/general.php:29
+#: inc/notifications/class-customer-appointment-approved.php:189
+#: inc/notifications/class-customer-appointment-approved.php:192
+#: inc/notifications/class-customer-appointment-approved.php:195
+#: inc/notifications/class-customer-appointment-approved.php:198
+#: inc/notifications/class-customer-appointment-approved.php:201
+#: inc/notifications/class-customer-appointment-approved.php:204
+#: inc/notifications/class-customer-appointment-approved.php:207
+#: inc/notifications/class-customer-appointment-approved.php:210
+#: inc/notifications/class-customer-appointment-approved.php:213
+#: inc/notifications/class-customer-appointment-approved.php:216
+#: inc/notifications/class-customer-appointment-approved.php:219
+#: inc/notifications/class-staff-appointment-approved.php:184
+#: inc/notifications/class-staff-appointment-approved.php:187
+#: inc/notifications/class-staff-appointment-approved.php:190
+#: inc/notifications/class-staff-appointment-approved.php:193
+#: inc/notifications/class-staff-appointment-approved.php:196
+#: inc/notifications/class-staff-appointment-approved.php:199
+#: inc/notifications/class-staff-appointment-approved.php:202
+#: inc/notifications/class-staff-appointment-approved.php:205
+#: inc/notifications/class-staff-appointment-approved.php:208
+msgid "Email"
+msgstr ""
+
+#: inc/admin/menu/views/staff/general.php:33
+#: inc/frontend/class-bsf-lightbox.php:67
+msgid "Phone Number"
+msgstr ""
+
+#: inc/admin/menu/views/staff/panels.php:16
+msgid "Update Staff"
+msgstr ""
+
+#: inc/admin/menu/views/staff/staff-edit.php:10
+msgid "Add Staff"
+msgstr ""
+
+#: inc/admin/menu/wp-list-table/class-bsf-appointments-table.php:124
+msgid "Appointment Start date"
+msgstr ""
+
+#: inc/admin/menu/wp-list-table/class-bsf-appointments-table.php:125
+msgid "Appointment End date"
+msgstr ""
+
+#: inc/admin/menu/wp-list-table/class-bsf-appointments-table.php:131
+#: inc/bsf-layout-functions.php:512 inc/frontend/class-bsf-lightbox.php:71
+msgid "Payment"
+msgstr ""
+
+#: inc/admin/menu/wp-list-table/class-bsf-appointments-table.php:132
+#: inc/frontend/class-bsf-lightbox.php:80
+msgid "Date"
+msgstr ""
+
+#: inc/admin/menu/wp-list-table/class-bsf-appointments-table.php:133
+#: inc/admin/menu/wp-list-table/class-bsf-payments-table.php:131
+msgid "Actions"
+msgstr ""
+
+#: inc/admin/menu/wp-list-table/class-bsf-appointments-table.php:134
+#: inc/admin/menu/wp-list-table/class-bsf-appointments-table.php:319
+msgid "View"
+msgstr ""
+
+#: inc/admin/menu/wp-list-table/class-bsf-appointments-table.php:166
+#: inc/admin/menu/wp-list-table/class-bsf-payments-table.php:164
+msgid "All"
+msgstr ""
+
+#: inc/admin/menu/wp-list-table/class-bsf-appointments-table.php:167
+#: inc/bsf-layout-functions.php:480
+msgid "Approved"
+msgstr ""
+
+#: inc/admin/menu/wp-list-table/class-bsf-appointments-table.php:233
+#: inc/admin/menu/wp-list-table/class-bsf-payments-table.php:232
+msgid "Sorry, you are not allowed to edit this item."
+msgstr ""
+
+#: inc/admin/menu/wp-list-table/class-bsf-appointments-table.php:315
+msgid "Appointment Details"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:22
+msgid "United Arab Emirates dirham"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:23
+msgid "Afghan afghani"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:24
+msgid "Albanian lek"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:25
+msgid "Armenian dram"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:26
+msgid "Netherlands Antillean guilder"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:27
+msgid "Angolan kwanza"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:28
+msgid "Argentine peso"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:29
+msgid "Australian dollar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:30
+msgid "Aruban florin"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:31
+msgid "Azerbaijani manat"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:32
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:33
+msgid "Barbadian dollar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:34
+msgid "Bangladeshi taka"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:35
+msgid "Bulgarian lev"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:36
+msgid "Bahraini dinar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:37
+msgid "Burundian franc"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:38
+msgid "Bermudian dollar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:39
+msgid "Brunei dollar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:40
+msgid "Bolivian boliviano"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:41
+msgid "Brazilian real"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:42
+msgid "Bahamian dollar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:43
+msgid "Bitcoin"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:44
+msgid "Bhutanese ngultrum"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:45
+msgid "Botswana pula"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:46
+msgid "Belarusian ruble (old)"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:47
+msgid "Belarusian ruble"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:48
+msgid "Belize dollar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:49
+msgid "Canadian dollar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:50
+msgid "Congolese franc"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:51
+msgid "Swiss franc"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:52
+msgid "Chilean peso"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:53
+msgid "Chinese yuan"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:54
+msgid "Colombian peso"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:55
+msgid "Costa Rican col&oacute;n"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:56
+msgid "Cuban convertible peso"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:57
+msgid "Cuban peso"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:58
+msgid "Cape Verdean escudo"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:59
+msgid "Czech koruna"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:60
+msgid "Djiboutian franc"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:61
+msgid "Danish krone"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:62
+msgid "Dominican peso"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:63
+msgid "Algerian dinar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:64
+msgid "Egyptian pound"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:65
+msgid "Eritrean nakfa"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:66
+msgid "Ethiopian birr"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:67
+msgid "Euro"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:68
+msgid "Fijian dollar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:69
+msgid "Falkland Islands pound"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:70
+msgid "Pound sterling"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:71
+msgid "Georgian lari"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:72
+msgid "Guernsey pound"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:73
+msgid "Ghana cedi"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:74
+msgid "Gibraltar pound"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:75
+msgid "Gambian dalasi"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:76
+msgid "Guinean franc"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:77
+msgid "Guatemalan quetzal"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:78
+msgid "Guyanese dollar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:79
+msgid "Hong Kong dollar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:80
+msgid "Honduran lempira"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:81
+msgid "Croatian kuna"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:82
+msgid "Haitian gourde"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:83
+msgid "Hungarian forint"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:84
+msgid "Indonesian rupiah"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:85
+msgid "Israeli new shekel"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:86
+msgid "Manx pound"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:87
+msgid "Indian rupee"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:88
+msgid "Iraqi dinar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:89
+msgid "Iranian rial"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:90
+msgid "Iranian toman"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:91
+msgid "Icelandic kr&oacute;na"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:92
+msgid "Jersey pound"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:93
+msgid "Jamaican dollar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:94
+msgid "Jordanian dinar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:95
+msgid "Japanese yen"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:96
+msgid "Kenyan shilling"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:97
+msgid "Kyrgyzstani som"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:98
+msgid "Cambodian riel"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:99
+msgid "Comorian franc"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:100
+msgid "North Korean won"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:101
+msgid "South Korean won"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:102
+msgid "Kuwaiti dinar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:103
+msgid "Cayman Islands dollar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:104
+msgid "Kazakhstani tenge"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:105
+msgid "Lao kip"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:106
+msgid "Lebanese pound"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:107
+msgid "Sri Lankan rupee"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:108
+msgid "Liberian dollar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:109
+msgid "Lesotho loti"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:110
+msgid "Libyan dinar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:111
+msgid "Moroccan dirham"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:112
+msgid "Moldovan leu"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:113
+msgid "Malagasy ariary"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:114
+msgid "Macedonian denar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:115
+msgid "Burmese kyat"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:116
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:117
+msgid "Macanese pataca"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:118
+msgid "Mauritanian ouguiya"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:119
+msgid "Mauritian rupee"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:120
+msgid "Maldivian rufiyaa"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:121
+msgid "Malawian kwacha"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:122
+msgid "Mexican peso"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:123
+msgid "Malaysian ringgit"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:124
+msgid "Mozambican metical"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:125
+msgid "Namibian dollar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:126
+msgid "Nigerian naira"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:127
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:128
+msgid "Norwegian krone"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:129
+msgid "Nepalese rupee"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:130
+msgid "New Zealand dollar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:131
+msgid "Omani rial"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:132
+msgid "Panamanian balboa"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:133
+msgid "Peruvian nuevo sol"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:134
+msgid "Papua New Guinean kina"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:135
+msgid "Philippine peso"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:136
+msgid "Pakistani rupee"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:137
+msgid "Polish z&#x142;oty"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:138
+msgid "Transnistrian ruble"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:139
+msgid "Paraguayan guaran&iacute;"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:140
+msgid "Qatari riyal"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:141
+msgid "Romanian leu"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:142
+msgid "Serbian dinar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:143
+msgid "Russian ruble"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:144
+msgid "Rwandan franc"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:145
+msgid "Saudi riyal"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:146
+msgid "Solomon Islands dollar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:147
+msgid "Seychellois rupee"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:148
+msgid "Sudanese pound"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:149
+msgid "Swedish krona"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:150
+msgid "Singapore dollar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:151
+msgid "Saint Helena pound"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:152
+msgid "Sierra Leonean leone"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:153
+msgid "Somali shilling"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:154
+msgid "Surinamese dollar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:155
+msgid "South Sudanese pound"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:156
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:157
+msgid "Syrian pound"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:158
+msgid "Swazi lilangeni"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:159
+msgid "Thai baht"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:160
+msgid "Tajikistani somoni"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:161
+msgid "Turkmenistan manat"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:162
+msgid "Tunisian dinar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:163
+msgid "Tongan pa&#x2bb;anga"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:164
+msgid "Turkish lira"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:165
+msgid "Trinidad and Tobago dollar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:166
+msgid "New Taiwan dollar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:167
+msgid "Tanzanian shilling"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:168
+msgid "Ukrainian hryvnia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:169
+msgid "Ugandan shilling"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:170
+msgid "United States (US) dollar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:171
+msgid "Uruguayan peso"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:172
+msgid "Uzbekistani som"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:173
+msgid "Venezuelan bol&iacute;var"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:174
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:175
+msgid "Vanuatu vatu"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:176
+msgid "Samoan t&#x101;l&#x101;"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:177
+msgid "Central African CFA franc"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:178
+msgid "East Caribbean dollar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:179
+msgid "West African CFA franc"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:180
+msgid "CFP franc"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:181
+msgid "Yemeni rial"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:182
+msgid "South African rand"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:183
+msgid "Zambian kwacha"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:401
+msgid "Afghanistan"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:402
+msgid "&#197;land Islands"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:403
+msgid "Albania"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:404
+msgid "Algeria"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:405
+msgid "American Samoa"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:406
+msgid "Andorra"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:407
+msgid "Angola"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:408
+msgid "Anguilla"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:409
+msgid "Antarctica"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:410
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:411
+msgid "Argentina"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:412
+msgid "Armenia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:413
+msgid "Aruba"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:414
+msgid "Australia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:415
+msgid "Austria"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:416
+msgid "Azerbaijan"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:417
+msgid "Bahamas"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:418
+msgid "Bahrain"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:419
+msgid "Bangladesh"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:420
+msgid "Barbados"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:421
+msgid "Belarus"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:422
+msgid "Belgium"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:423
+msgid "Belau"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:424
+msgid "Belize"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:425
+msgid "Benin"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:426
+msgid "Bermuda"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:427
+msgid "Bhutan"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:428
+msgid "Bolivia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:429
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:430
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:431
+msgid "Botswana"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:432
+msgid "Bouvet Island"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:433
+msgid "Brazil"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:434
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:435
+msgid "British Virgin Islands"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:436
+msgid "Brunei"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:437
+msgid "Bulgaria"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:438
+msgid "Burkina Faso"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:439
+msgid "Burundi"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:440
+msgid "Cambodia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:441
+msgid "Cameroon"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:442
+msgid "Canada"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:443
+msgid "Cape Verde"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:444
+msgid "Cayman Islands"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:445
+msgid "Central African Republic"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:446
+msgid "Chad"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:447
+msgid "Chile"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:448
+msgid "China"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:449
+msgid "Christmas Island"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:450
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:451
+msgid "Colombia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:452
+msgid "Comoros"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:453
+msgid "Congo (Brazzaville)"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:454
+msgid "Congo (Kinshasa)"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:455
+msgid "Cook Islands"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:456
+msgid "Costa Rica"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:457
+msgid "Croatia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:458
+msgid "Cuba"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:459
+msgid "Cura&ccedil;ao"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:460
+msgid "Cyprus"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:461
+msgid "Czech Republic"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:462
+msgid "Denmark"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:463
+msgid "Djibouti"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:464
+msgid "Dominica"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:465
+msgid "Dominican Republic"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:466
+msgid "Ecuador"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:467
+msgid "Egypt"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:468
+msgid "El Salvador"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:469
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:470
+msgid "Eritrea"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:471
+msgid "Estonia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:472
+msgid "Ethiopia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:473
+msgid "Falkland Islands"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:474
+msgid "Faroe Islands"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:475
+msgid "Fiji"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:476
+msgid "Finland"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:477
+msgid "France"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:478
+msgid "French Guiana"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:479
+msgid "French Polynesia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:480
+msgid "French Southern Territories"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:481
+msgid "Gabon"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:482
+msgid "Gambia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:483
+msgid "Georgia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:484
+msgid "Germany"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:485
+msgid "Ghana"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:486
+msgid "Gibraltar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:487
+msgid "Greece"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:488
+msgid "Greenland"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:489
+msgid "Grenada"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:490
+msgid "Guadeloupe"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:491
+msgid "Guam"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:492
+msgid "Guatemala"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:493
+msgid "Guernsey"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:494
+msgid "Guinea"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:495
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:496
+msgid "Guyana"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:497
+msgid "Haiti"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:498
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:499
+msgid "Honduras"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:500
+msgid "Hong Kong"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:501
+msgid "Hungary"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:502
+msgid "Iceland"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:503
+msgid "India"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:504
+msgid "Indonesia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:505
+msgid "Iran"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:506
+msgid "Iraq"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:507
+msgid "Ireland"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:508
+msgid "Isle of Man"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:509
+msgid "Israel"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:510
+msgid "Italy"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:511
+msgid "Ivory Coast"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:512
+msgid "Jamaica"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:513
+msgid "Japan"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:514
+msgid "Jersey"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:515
+msgid "Jordan"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:516
+msgid "Kazakhstan"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:517
+msgid "Kenya"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:518
+msgid "Kiribati"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:519
+msgid "Kuwait"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:520
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:521
+msgid "Laos"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:522
+msgid "Latvia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:523
+msgid "Lebanon"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:524
+msgid "Lesotho"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:525
+msgid "Liberia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:526
+msgid "Libya"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:527
+msgid "Liechtenstein"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:528
+msgid "Lithuania"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:529
+msgid "Luxembourg"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:530
+msgid "Macao S.A.R., China"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:531
+msgid "Macedonia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:532
+msgid "Madagascar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:533
+msgid "Malawi"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:534
+msgid "Malaysia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:535
+msgid "Maldives"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:536
+msgid "Mali"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:537
+msgid "Malta"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:538
+msgid "Marshall Islands"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:539
+msgid "Martinique"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:540
+msgid "Mauritania"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:541
+msgid "Mauritius"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:542
+msgid "Mayotte"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:543
+msgid "Mexico"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:544
+msgid "Micronesia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:545
+msgid "Moldova"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:546
+msgid "Monaco"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:547
+msgid "Mongolia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:548
+msgid "Montenegro"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:549
+msgid "Montserrat"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:550
+msgid "Morocco"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:551
+msgid "Mozambique"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:552
+msgid "Myanmar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:553
+msgid "Namibia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:554
+msgid "Nauru"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:555
+msgid "Nepal"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:556
+msgid "Netherlands"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:557
+msgid "New Caledonia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:558
+msgid "New Zealand"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:559
+msgid "Nicaragua"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:560
+msgid "Niger"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:561
+msgid "Nigeria"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:562
+msgid "Niue"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:563
+msgid "Norfolk Island"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:564
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:565
+msgid "North Korea"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:566
+msgid "Norway"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:567
+msgid "Oman"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:568
+msgid "Pakistan"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:569
+msgid "Palestinian Territory"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:570
+msgid "Panama"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:571
+msgid "Papua New Guinea"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:572
+msgid "Paraguay"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:573
+msgid "Peru"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:574
+msgid "Philippines"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:575
+msgid "Pitcairn"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:576
+msgid "Poland"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:577
+msgid "Portugal"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:578
+msgid "Puerto Rico"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:579
+msgid "Qatar"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:580
+msgid "Reunion"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:581
+msgid "Romania"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:582
+msgid "Russia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:583
+msgid "Rwanda"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:584
+msgid "Saint Barth&eacute;lemy"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:585
+msgid "Saint Helena"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:586
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:587
+msgid "Saint Lucia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:588
+msgid "Saint Martin (French part)"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:589
+msgid "Saint Martin (Dutch part)"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:590
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:591
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:592
+msgid "San Marino"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:593
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:594
+msgid "Saudi Arabia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:595
+msgid "Senegal"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:596
+msgid "Serbia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:597
+msgid "Seychelles"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:598
+msgid "Sierra Leone"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:599
+msgid "Singapore"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:600
+msgid "Slovakia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:601
+msgid "Slovenia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:602
+msgid "Solomon Islands"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:603
+msgid "Somalia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:604
+msgid "South Africa"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:605
+msgid "South Georgia/Sandwich Islands"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:606
+msgid "South Korea"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:607
+msgid "South Sudan"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:608
+msgid "Spain"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:609
+msgid "Sri Lanka"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:610
+msgid "Sudan"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:611
+msgid "Suriname"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:612
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:613
+msgid "Swaziland"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:614
+msgid "Sweden"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:615
+msgid "Switzerland"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:616
+msgid "Syria"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:617
+msgid "Taiwan"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:618
+msgid "Tajikistan"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:619
+msgid "Tanzania"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:620
+msgid "Thailand"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:621
+msgid "Timor-Leste"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:622
+msgid "Togo"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:623
+msgid "Tokelau"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:624
+msgid "Tonga"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:625
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:626
+msgid "Tunisia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:627
+msgid "Turkey"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:628
+msgid "Turkmenistan"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:629
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:630
+msgid "Tuvalu"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:631
+msgid "Uganda"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:632
+msgid "Ukraine"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:633
+msgid "United Arab Emirates"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:634
+msgid "United Kingdom (UK)"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:635
+msgid "United States (US)"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:636
+msgid "United States (US) Minor Outlying Islands"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:637
+msgid "United States (US) Virgin Islands"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:638
+msgid "Uruguay"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:639
+msgid "Uzbekistan"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:640
+msgid "Vanuatu"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:641
+msgid "Vatican"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:642
+msgid "Venezuela"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:643
+msgid "Vietnam"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:644
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:645
+msgid "Western Sahara"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:646
+msgid "Samoa"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:647
+msgid "Yemen"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:648
+msgid "Zambia"
+msgstr ""
+
+#: inc/bsf-default-common-functions.php:649
+msgid "Zimbabwe"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:207 inc/bsf-layout-functions.php:261
+msgid "OFF"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:301 inc/bsf-layout-functions.php:336
+msgid "5 min"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:302 inc/bsf-layout-functions.php:337
+msgid "10 min"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:303 inc/bsf-layout-functions.php:338
+msgid "12 min"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:304 inc/bsf-layout-functions.php:339
+msgid "15 min"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:305 inc/bsf-layout-functions.php:340
+msgid "20 min"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:306 inc/bsf-layout-functions.php:341
+msgid "30 min"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:307 inc/bsf-layout-functions.php:342
+msgid "45 min"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:308 inc/bsf-layout-functions.php:343
+msgid "1 h"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:309 inc/bsf-layout-functions.php:344
+msgid "1 h 30 min"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:310 inc/bsf-layout-functions.php:345
+msgid "2 h"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:311 inc/bsf-layout-functions.php:346
+msgid "3 h"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:312 inc/bsf-layout-functions.php:347
+msgid "4 h"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:313 inc/bsf-layout-functions.php:348
+msgid "5 h"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:314 inc/bsf-layout-functions.php:349
+msgid "6 h"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:370
+msgid "Default"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:371
+msgid "Slot Length as Service Duration"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:422
+msgid "Cancel"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:425
+msgid "Approve"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:428
+msgid "Edit"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:431
+msgid "Reject"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:434
+msgid "Delete Permanently"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:457
+msgid "Rejected"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:473
+msgid "Paid"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:477
+msgid "Unpaid"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:509
+msgid "Service Selection"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:510
+msgid "Time Selection"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:511
+msgid "User Details"
+msgstr ""
+
+#: inc/bsf-layout-functions.php:513
+msgid "Completion"
+msgstr ""
+
+#: inc/class-bsf-datetime.php:194
+#, php-format
+msgid "%d h"
+msgstr ""
+
+#: inc/class-bsf-datetime.php:197
+#, php-format
+msgid "%d min"
+msgstr ""
+
+#: inc/frontend/class-bsf-booking-checkout.php:55
+msgid "Unable to make payment."
+msgstr ""
+
+#: inc/frontend/class-bsf-booking-form-handler.php:163
+#, php-format
+msgid "Your selected booking details are as follows %s by %s at %s on %s.The price for the booking is %s.Please fill in the details in order to proceed with the booking."
+msgstr ""
+
+#: inc/frontend/class-bsf-booking-form-handler.php:176
+#, php-format
+msgid "Below you can find a list of available time slots for %s by %s.Click on a time slot to proceed with booking."
+msgstr ""
+
+#: inc/frontend/class-bsf-lightbox.php:43
+#: inc/frontend/views/booking/step-complete.php:30
+msgid "Appointment Start Time"
+msgstr ""
+
+#: inc/frontend/class-bsf-lightbox.php:47
+#: inc/frontend/views/booking/step-complete.php:34
+msgid "Appointment End Time"
+msgstr ""
+
+#: inc/frontend/views/booking/step-complete.php:42
+msgid "Payment Status"
+msgstr ""
+
+#: inc/frontend/views/booking/step-complete.php:47
+msgid "Done"
+msgstr ""
+
+#: inc/frontend/views/booking/step-details.php:44
+#: inc/frontend/views/booking/step-payment.php:68
+#: inc/frontend/views/booking/step-time.php:29
+msgid "Prev"
+msgstr ""
+
+#: inc/frontend/views/booking/step-details.php:45
+#: inc/frontend/views/booking/step-payment.php:69
+#: inc/frontend/views/booking/step-service.php:71
+#: inc/frontend/views/booking/step-time.php:30
+msgid "Next"
+msgstr ""
+
+#: inc/frontend/views/booking/step-payment.php:17
+msgid "Booking Amount"
+msgstr ""
+
+#: inc/frontend/views/booking/step-payment.php:20
+msgid "Subtotal"
+msgstr ""
+
+#: inc/frontend/views/booking/step-payment.php:25
+msgid "Total"
+msgstr ""
+
+#: inc/frontend/views/booking/step-payment.php:38
+msgid "No payment gateways available"
+msgstr ""
+
+#: inc/frontend/views/booking/step-service.php:21
+msgid "Select a Service"
+msgstr ""
+
+#: inc/notifications/class-customer-appointment-approved.php:21
+msgid "Customer - Appointment Approved"
+msgstr ""
+
+#: inc/notifications/class-customer-appointment-approved.php:117
+#: inc/notifications/class-staff-appointment-approved.php:104
+msgid "Appointment Time"
+msgstr ""
+
+#: inc/notifications/class-customer-appointment-approved.php:159
+#: inc/notifications/class-staff-appointment-approved.php:154
+msgid "Send Email"
+msgstr ""
+
+#: inc/notifications/class-customer-appointment-approved.php:165
+#: inc/notifications/class-staff-appointment-approved.php:160
+msgid "Subject"
+msgstr ""
+
+#: inc/notifications/class-customer-appointment-approved.php:171
+#: inc/notifications/class-staff-appointment-approved.php:166
+msgid "Message"
+msgstr ""
+
+#: inc/notifications/class-customer-appointment-approved.php:190
+#: inc/notifications/class-staff-appointment-approved.php:200
+msgid "Displays the Customer Name"
+msgstr ""
+
+#: inc/notifications/class-customer-appointment-approved.php:193
+msgid "Displays the Appointment Date and Time"
+msgstr ""
+
+#: inc/notifications/class-customer-appointment-approved.php:196
+#: inc/notifications/class-staff-appointment-approved.php:185
+msgid "Displays the Appointment Details"
+msgstr ""
+
+#: inc/notifications/class-customer-appointment-approved.php:199
+#: inc/notifications/class-staff-appointment-approved.php:188
+msgid "Displays the Appointment Date"
+msgstr ""
+
+#: inc/notifications/class-customer-appointment-approved.php:202
+#: inc/notifications/class-staff-appointment-approved.php:191
+msgid "Displays the Appointment Time"
+msgstr ""
+
+#: inc/notifications/class-customer-appointment-approved.php:205
+#: inc/notifications/class-staff-appointment-approved.php:194
+msgid "Displays the Service Name"
+msgstr ""
+
+#: inc/notifications/class-customer-appointment-approved.php:208
+#: inc/notifications/class-staff-appointment-approved.php:197
+msgid "Displays the Staff Name"
+msgstr ""
+
+#: inc/notifications/class-customer-appointment-approved.php:211
+msgid "Displays the Company Address"
+msgstr ""
+
+#: inc/notifications/class-customer-appointment-approved.php:214
+msgid "Displays the Company Name"
+msgstr ""
+
+#: inc/notifications/class-customer-appointment-approved.php:217
+msgid "Displays the Company Phone"
+msgstr ""
+
+#: inc/notifications/class-customer-appointment-approved.php:220
+msgid "Displays the Company Website"
+msgstr ""
+
+#: inc/notifications/class-customer-appointment-approved.php:228
+#: inc/notifications/class-staff-appointment-approved.php:217
+msgid "Shortcode"
+msgstr ""
+
+#: inc/notifications/class-customer-appointment-approved.php:231
+#: inc/notifications/class-staff-appointment-approved.php:220
+msgid "Context where Shortcode is valid"
+msgstr ""
+
+#: inc/notifications/class-customer-appointment-approved.php:234
+#: inc/notifications/class-staff-appointment-approved.php:223
+msgid "Purpose"
+msgstr ""
+
+#: inc/notifications/class-staff-appointment-approved.php:21
+msgid "Staff - Appointment Approved"
+msgstr ""
+
+#: inc/notifications/class-staff-appointment-approved.php:108
+msgid "Customer Name"
+msgstr ""
+
+#: inc/notifications/class-staff-appointment-approved.php:112
+msgid "Customer Phone"
+msgstr ""
+
+#: inc/notifications/class-staff-appointment-approved.php:116
+msgid "Customer Email"
+msgstr ""
+
+#: inc/notifications/class-staff-appointment-approved.php:203
+msgid "Displays the Customer Phone"
+msgstr ""
+
+#: inc/notifications/class-staff-appointment-approved.php:206
+msgid "Displays the Customer Email"
+msgstr ""
+
+#: inc/notifications/class-staff-appointment-approved.php:209
+msgid "Displays the Site Name"
+msgstr ""
+
+#: inc/payment-gateways/offline/class-bsf-offline-gateway.php:38
+msgid "Enable/Disable"
+msgstr ""
+
+#: inc/payment-gateways/offline/class-bsf-offline-gateway.php:48
+msgid "Payment method description"
+msgstr ""
+
+#: inc/payment-gateways/offline/class-bsf-offline-gateway.php:52
+msgid "Description"
+msgstr ""
+
+#: inc/payment-gateways/offline/class-bsf-offline-gateway.php:55
+msgid "Payment method description that the customer will see on your website."
+msgstr ""
+
+#: inc/privacy/class-bsf-privacy.php:60
+msgid "This includes the basics of what personal data your store may be collecting, storing and sharing. Depending on what settings are enabled and which additional plugins are used, the specific information shared by your store will vary."
+msgstr ""
+
+#: inc/privacy/class-bsf-privacy.php:61
+msgid "WHAT DOES THE PLUGIN DO?"
+msgstr ""
+
+#: inc/privacy/class-bsf-privacy.php:62
+msgid "- Both Members(registered users) and guests can book Appointments on the site."
+msgstr ""
+
+#: inc/privacy/class-bsf-privacy.php:63
+msgid "- Emails can be sent to the users and Staff Members for actions such as Appointment Approved."
+msgstr ""
+
+#: inc/privacy/class-bsf-privacy.php:64
+msgid "WHAT WE COLLECT AND STORE?"
+msgstr ""
+
+#: inc/privacy/class-bsf-privacy.php:65
+msgid "- USER ID"
+msgstr ""
+
+#: inc/privacy/class-bsf-privacy.php:68
+msgid "The User id is used for storing the Appointments made by the user."
+msgstr ""
+
+#: inc/privacy/class-bsf-privacy.php:71
+msgid "- EMAIL ID"
+msgstr ""
+
+#: inc/privacy/class-bsf-privacy.php:74
+msgid "The Email ID is collected for sending Appointment Email Notifications"
+msgstr ""

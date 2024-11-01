@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+/*     calender design       */
+
+.bsf_holiday_year{
+	width:180px;
+	margin:35px auto;
+}
+.bsf_holiday_year input[type='text']{
+	text-align:center;
+	width:70px;
+	height:50px;
+	font-weight:bold;
+	border:none !important;
+	box-shadow:none !important;
+	margin:0px !important;
+	float:left;
+}
+
+.bsf_holiday_year div.bsf_holiday_previous_year,
+.bsf_holiday_year div.bsf_holiday_next_year{
+	background:#eee;
+	height:50px;
+	width:40px;
+	float:left;
+	cursor: pointer;
+}
+.bsf_holiday_year div.bsf_holiday_previous_year:hover,
+.bsf_holiday_year div.bsf_holiday_next_year:hover{
+	background:#000070;
+}
+.bsf_holiday_year div.bsf_holiday_previous_year:hover i,
+.bsf_holiday_year div.bsf_holiday_next_year:hover i{
+	color:#fff;
+}
+.bsf_holiday_year div.bsf_holiday_previous_year{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-right:1px solid #fff;
+}
+.bsf_holiday_year div.bsf_holiday_next_year{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-left:1px solid #fff;
+}
+.bsf_holiday_year div.bsf_holiday_previous_year i,
+.bsf_holiday_year div.bsf_holiday_next_year i{
+	margin:0 auto;
+	display: block;
+	line-height: 2.5em;
+	cursor:pointer;
+}
+#bfs_holiday_calender{
+	float:left;
+	margin-top:30px;
+}
+#bfs_holiday_calender .jCalMo{
+	float:left;
+	height:250px;
+	padding:0 15px;
+	margin-bottom:10px;
+	display:block;
+	position:relative;
+	white-space: nowrap;
+}
+#bfs_holiday_calender .jCal {
+	position: relative;
+	width: 100%;
+	height:auto !important;
+}
+
+#bfs_holiday_calender .jCal .left, #bfs_holiday_calender .jCal .right{
+	float: none !important;
+	color: transparent;
+	text-shadow: none;
+	background-color: transparent;
+	border: 0;
+	width:auto !important;
+	height:auto !important;
+}
+
+#bfs_holiday_calender .jCal .month{
+	float:left;
+	width:100% !important;
+	height:auto !important;
+
+}
+#bfs_holiday_calender .jCal .monthName{
+	width:100% !important;
+	padding: 10px 0;
+	font-weight: 700;
+	text-align:center;
+	float:left;
+	display:block;
+	height:auto !important;
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+}
+#bfs_holiday_calender .jCal .monthName:hover{
+	background:none;
+	color:#000;
+}
+#bfs_holiday_calender .jCalMo .dow{
+	font-size: 12px;
+	line-height: 30px;
+	background: #000070;
+	border-bottom: 0;
+	position:relative;
+	float:left;
+	border:1px solid #000070;
+	border-width:0 1px 1px 1px;
+	font-family: 'Roboto', sans-serif;
+	color:#fff;
+}
+#bfs_holiday_calender .jCalMo .pday,
+#bfs_holiday_calender .jCalMo .aday{
+	font-size: 13px;
+	line-height: 30px;
+	color:#f5ebeb;
+	background:#b5b1d1;
+	font-family: 'Roboto', sans-serif;
+	border-right:1px solid #b5b1d1;
+	border-bottom:1px solid #b5b1d1;
+	border-left:1px solid #b5b1d1;
+}
+#bfs_holiday_calender .jCalMo .day{
+	font-size: 13px;
+	line-height: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+#bfs_holiday_calender .jCalMo .selectedDay, #bfs_holiday_calender .jCalMo .bsf_holidayday{
+	position:relative;
+	float:left;
+	color:#fff;
+}
+#bfs_holiday_calender .jCalMo .selectedDay{
+	background:#3a8a51;
+}
+#bfs_holiday_calender .jCalMo .bsf_holidayday{
+	background:#4b056f;
+}
+#bfs_holiday_calender .jCalMo .bsf_repeatday{
+	background:#37b00a;
+}
+#bfs_holiday_calender .jCalMo .overDay{
+	background:#3a8a51;
+}
+#bfs_holiday_calender .jCalMo .bsf_holiday_popup{
+	position:absolute;
+	left:0;
+	border:1px solid #ccc;
+	background:#fff;
+	border-radius:5px;
+	display:block;
+	z-index: 999999;
+	opacity: 1;
+	width:300px;
+	margin-top:35px;
+	/*    margin-left:-25px;*/
+	/*    box-shadow:0 0 3px #000;    */
+}
+#bfs_holiday_calender .jCalMo .bsf_holiday_popup p{
+	text-align:center;
+}
+#bfs_holiday_calender .jCalMo .bsf_holiday_popup p label{
+	color:#000;
+	font-family: 'Roboto', sans-serif;
+	width:100%;
+	display:block;
+	font-size:14px;
+	text-align:center;
+	cursor: default;
+}
+
+#bfs_holiday_calender .jCalMo .bsf_holiday_popup p i{
+	color:#f00;
+	font-size:22px;
+	float:right;
+	margin-right:5px;
+	margin-top:-10px;
+	cursor:pointer;
+}
+#bfs_holiday_calender .jCalMo .bsf_holiday_popup input[type='button']{
+	padding:7px 15px;
+	background:#138f30;
+	color:#fff;
+	border-radius:5px;
+	border:none;
+	box-shadow: none;
+	cursor:pointer;
+	margin-bottom:15px;
+	margin-left:40%;
+}
+#bfs_holiday_calender .jCalMo .bsf_holiday_popup :disabled{
+	cursor: not-allowed;
+}
+#bfs_holiday_calender .jCalMo .bsf_holiday_popup input[type='button']:disabled{
+	opacity: 0.5;
+	cursor: not-allowed;
+}

@@ -1,0 +1,888 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+.bsf-booking-form-container{
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border-radius:5px;
+	font-family: 'Roboto', sans-serif;
+	background:#fff;
+}
+/*       Prograss bar design       */
+.bsf-booking-form-container .bsf_booking_prograss_bar_container{
+	width: 100%;
+	float: left;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-top:2px solid #666 !important;
+	border-left:2px solid #666 !important;
+	border-right:2px solid #666 !important;
+}
+.bsf_booking_prograss_bar{
+	width:90%;
+	margin-top:25px;
+	margin-bottom:20px;
+	margin-left:5%;
+	float:left;
+}
+.bsf_booking_prograss_bar ul.bsf_booking_steps{
+	display:table;
+	table-layout: fixed;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+.bsf_booking_prograss_bar ul.bsf_booking_steps li{
+	display: table-cell;
+	text-align:center;
+	position:relative;
+	counter-increment: stepNum;
+	list-style:none;
+	padding-left:0;
+	color:#000;
+	font-size:14px;
+	font-family: 'Roboto', sans-serif;
+}
+.bsf_booking_prograss_bar ul.bsf_booking_steps li:before{
+	width:40px;
+	height:40px;
+	background:#ccc;
+	content: counter(stepNum);
+	border-radius: 50%;
+	display:block;
+	text-align:center;
+	line-height:38px;
+	margin:0 auto 5px;
+	z-index:999;
+	position:relative;
+}
+.bsf_booking_prograss_bar ul.bsf_booking_steps li:after{
+	content:'';
+	height:2px;
+	width:90%;
+	background:#ccc;
+	top:20px;
+	position: absolute;
+	left:-45.5%;
+	z-index:1;
+}
+
+.bsf_booking_prograss_bar ul.bsf_booking_steps li:first-child:after, 
+.bsf_booking_prograss_bar ul.bsf_booking_steps li.active:first-child:after{
+	background:none !important;
+}
+.bsf_booking_prograss_bar ul.bsf_booking_steps li.active:before{
+	content:'\f00c';
+	z-index:9;
+	font-family: FontAwesome !important;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	background:#000070 !important;
+}
+.bsf_booking_prograss_bar ul.bsf_booking_steps li.active:after{
+	color:#fff;
+	background:#000070 !important;
+}
+.bsf-booking-form-container{
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container{
+	width: 100%;
+	float: left;
+	padding:10px 0px;
+	border:2px solid #666 !important;
+	margin:0;
+	border-bottom-left-radius:5px !important;   
+	border-bottom-right-radius:5px !important;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container h2{
+	width:95%;
+	float:left;
+	margin-left:2.5%;
+	margin-bottom:0px;
+	padding-bottom:10px;
+	font-family: 'Roboto', sans-serif !important;
+	font-weight:600 !important;
+	font-size:20px !important;
+	text-align:left !important;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container p{
+	font-size:14px;
+	color:#666;
+	font-weight:normal;
+	width: 95%;
+	margin-top:10px;
+	margin-bottom:10px;    
+	margin-left:2.5%;
+	float: left;
+	font-family: 'Roboto', sans-serif !important;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row{
+	width: 95%;
+	margin-left:2.5%;
+	float: left;
+	font-family: 'Roboto', sans-serif;    
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container 
+.bsf-booking-form-row .bsf-booking-form-row-td{
+	width:49%;
+	float:left;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row .bsf-booking-form-row-right-td{
+	float:right;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row label{
+	width:100%;
+	display:block;
+	font-size:14px;
+	color:#222;
+	margin:6px 0px;
+	padding:0;
+	font-family: 'Roboto', sans-serif;
+	font-weight:600;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row label span,
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row 
+.bsf-booking-form-row-checkbox strong.bsf-booking-form-days span{
+	color:#f00;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row p.bsf-booking-form-details-info, 
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf_booking_form_msg p{
+	width:100%;
+	display:block;
+	border-radius:5px;
+	font-weight:normal;
+	float:left;
+	margin:0;
+	padding:10px 0px 10px 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+	font-weight:400;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row p.bsf-booking-form-details-info{
+	color:#1d9d74;;
+	background:#f1f9f7;
+	border:1px solid #e0f1e9;
+	margin-bottom:5px;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row p.bsf-booking-form-details-info small{
+	width:98%;
+	margin-left:1%;
+	display:inline-block;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row p.bsf-booking-form-details-info small:before,
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf_booking_form_msg p:before{
+	font-size:20px;
+	z-index:9;
+	font-family: FontAwesome !important;
+	padding-right:10px;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row p.bsf-booking-form-details-info small:before{
+	content:'\f05a';
+	color:#1d9d74;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf_booking_form_msg{
+	width:95%;
+	float:left;
+	margin-left:2.5%;
+	margin-bottom:10px;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf_booking_form_msg p.bsf_error{
+	background: #f2dede;
+	border:1px solid #ebccd1;
+	color: #b84442;
+	text-indent: 10px;    
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf_booking_form_msg p.bsf_error:before{
+	content:'\f071';
+	color:#b84442;
+	font-size:16px !important;
+	padding-right:5px;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf_booking_form_msg p.bsf_success{
+	background: #dff0d8;
+	border:1px solid #d6e9c6;
+	color: #356837;
+	text-indent: 10px;    
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf_booking_form_msg p.bsf_success:before{
+	content:'\f00c';
+	color:#356837;
+	font-size:16px !important;
+	padding-right:5px;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row input,
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row select{
+	margin:6px 0px;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row input[type='text'],
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row input[type='number'],
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row input[type='email'],
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row input[type='url'],
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row input[type='password'],
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row textarea,
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row select{
+	box-shadow: 0 -5px 10px 2px rgba(0, 0, 0, 0.03) inset !important;
+	width: 100% !important;
+	border: 1px solid #bbb !important;
+	border-radius: 5px !important;
+	height: 35px !important;
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+	font-weight:400 !important;
+	color:#666 !important;
+	background:#fff;
+	padding:0px 0px 0px 10px !important;
+	outline: none !important;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row input[type='radio'],
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row input[type='checkbox']{
+	width:auto;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row inputfocus,
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row input:active,
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row input[type='text']:focus,
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row input[type='text']:active,
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row input[type='number']:focus,
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row input[type='number']:active,
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row input[type='email']:focus,
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row input[type='email']:active,
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row input[type='url']:focus,
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row input[type='url']:active,
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row input[type='password']:focus,
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row input[type='password']:active,
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row textarea:focus,
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row textarea:active
+{
+	color:#666;
+	background:#fff !important;
+	outline:none !important; 
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row textarea{
+	min-height:100px;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row select{
+	background:#fff url('../../../assets/images/others/arrow-217-10.png') no-repeat right 10px center !important;
+	-moz-appearance: none;
+	position:relative;
+	appearance: none;
+	-webkit-appearance:none;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row select:focus, 
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row select:active {
+	background:#fff url('../../../assets/images/others/arrow-217-10.png') no-repeat right 10px center !important;
+	outline: none !important;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-nav-steps{
+	width:95%;
+	float: left;
+	margin-left:2.5%; 
+	margin-top:15px;
+	margin-bottom:15px;
+	padding-top:10px;
+	border-top:1px solid #000;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container 
+.bsf-nav-steps button.bsf_booking_step_btn{
+	color: #fff;
+	padding: 10px 20px !important;
+	border: none !important;
+	box-shadow: none !important;
+	position: relative;
+	width: auto !important;
+	height: auto !important;
+	text-shadow: none;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius:5px;
+	font-family: 'Roboto', sans-serif;
+	text-transform:none;
+	background: #000070;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container 
+.bsf-nav-steps button.bsf_booking_next_step{
+	float: right;    
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container 
+.bsf-nav-steps button.bsf_booking_back_step{
+	float: left;    
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container 
+.bsf-nav-steps button.bsf_booking_next_step i{
+	padding-left:5px;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container 
+.bsf-nav-steps button.bsf_booking_back_step i{
+	padding-right:5px;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container 
+.bsf-nav-steps button.bsf_booking_step_btn:hover{
+	box-shadow:0 0 3px #000 !important;
+	cursor: pointer;
+}
+
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row 
+.bsf-booking-form-row-checkbox{
+	width:14%;
+	min-width:80px;
+	float:left;
+	margin:10px 0px 5px 0px;
+	text-align:center;
+
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row 
+.bsf-booking-form-row-checkbox strong.bsf-booking-form-days{
+	color:#222;
+	font-weight:400;
+	font-size:14px;
+	display:block;
+}
+
+/*    checkbox design   */
+
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row 
+.bsf-booking-form-row-checkbox .bsf_switch {
+	position: relative;
+	display: inline-block;
+	width: 58px;
+	height: 30px;
+	margin:10px auto;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row 
+.bsf-booking-form-row-checkbox .bsf_switch input { 
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row 
+.bsf-booking-form-row-checkbox .bsf_slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+	border: 1px solid #ccc;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row 
+.bsf-booking-form-row-checkbox .bsf_slider:before {
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 1px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+	top:1px;
+	right:4px;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row 
+.bsf-booking-form-row-checkbox input:checked + .bsf_slider {
+	background-color: #000070;
+	border: 1px solid #000070;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row 
+.bsf-booking-form-row-checkbox input:focus + .bsf_slider {
+	box-shadow: 0 0 1px #2196F3;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row 
+.bsf-booking-form-row-checkbox input:checked + .bsf_slider:before {
+	-webkit-transform: translateX(27px);
+	-ms-transform: translateX(27px);
+	transform: translateX(27px);
+}
+/* Rounded sliders */
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row 
+.bsf-booking-form-row-checkbox .bsf_slider.bsf_round {
+	border-radius: 34px;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row 
+.bsf-booking-form-row-checkbox .bsf_slider.bsf_round:before {
+	border-radius: 50%;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf_time_slots{
+	display: inline-block;
+	width:95%;
+	margin-left:2.5%;
+	min-height:50px;
+	max-height:400px;
+	overflow-y: auto;
+}
+
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf_time_slots .bsf_booking_day{
+	float:left;
+	width:100%;
+	border:none;
+	color:#222;
+	font-size:16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:400;
+	background: #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	margin:7px 0px;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf_time_slots .bsf_booking_time{
+	float:left;
+	min-width:90px;
+	width:9%;
+	border:1px solid #138f30;
+	color:#666;
+	font-size:14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:400;
+	background: #fff;
+	border-radius: 5px;
+	padding: 10px;
+	margin:3px;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf_time_slots .bsf_booking_time:hover,.bsf_booking_active_time{
+	color:#fff;
+	background: #138f30;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf_time_slots .bsf_booking_active_time{
+	color:#fff;
+	background: #138f30;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf_time_slots .bsf_booked_slot{
+	color:#fff;
+	background: #666;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container .bsf_time_slots .bsf_booked_slot:hover{
+	color:#fff;
+	background: #666;
+	box-shadow: 0 0 3px #000;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container table.bsf-booking-customer-info{
+	width:70%;
+	margin:20px auto;
+	border-collapse: collapse;
+	border:1px solid #ccc;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container table.bsf-booking-customer-info tr:nth-child(2n){
+	background:#f7f7f7;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container table.bsf-booking-customer-info tr th,
+.bsf-booking-form-container .bsf-booking-form-inner-container table.bsf-booking-customer-info tr td{
+	font-size:14px;
+	padding:10px;
+	font-family: 'Roboto', sans-serif;
+	color:#fff;
+	text-align:left;
+	background:#666;
+	font-weight:bold;
+	border-bottom:1px solid #ccc;
+	text-transform: none !important;
+	width:50%;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container table.bsf-booking-customer-info tr td{
+	color:#222 !important;
+	font-weight:normal !important;
+	border:none !important;
+	background:none;
+}
+/*  Payment Method */
+.bsf-booking-form-inner-container ul{
+	margin:0;
+	padding:0;
+}
+.bsf-booking-form-inner-container .bsf-payment-methods{
+	background:#bbb;
+	float:left;
+	padding-top:10px;
+	width:100%;
+}
+.bsf-booking-form-inner-container li.bsf_payment_method{
+	list-style: none;
+	width:95%;
+	float:left;
+	margin-bottom:10px;
+	margin-left:2.5%;
+}
+.bsf-booking-form-inner-container li.bsf_payment_method input[type='radio']{
+	float:left;
+	outline: none !important;
+}
+.bsf-booking-form-inner-container li.bsf_payment_method label{
+	display:inline-block;
+	font-weight:bold;
+	font-size:16px;
+	color:#222 !important;
+	margin-left:10px;
+	font-family: 'Roboto', sans-serif;
+	position:relative;
+}
+.bsf-booking-form-inner-container li.bsf_payment_method label .bsf_payment_method_icon{
+	margin-bottom:10px !important;
+	margin-left:10px;
+	position:relative;
+	display:inline-block;
+}
+.bsf-booking-form-inner-container li.bsf_payment_method label .bsf_payment_method_icon img{
+	margin-bottom:0;
+	display:inline-block;
+}
+.bsf-booking-form-inner-container li.bsf_payment_method .bsf_payment_method_offline_payment_gateway{
+	width:100%;
+	float:left;
+}
+.bsf-booking-form-inner-container li.bsf_payment_method .bsf_payment_box{
+	display:none;
+}
+.bsf-booking-form-inner-container li.bsf_payment_method p{
+	width:98%;
+	display:block;
+	font-size:14px;
+	font-weight:normal;
+	color:#666 !important;
+	margin:5px 0px 10px 10px;
+	padding:0px;
+	font-family: 'Roboto', sans-serif;
+}
+.bsf-booking-form-inner-container li.bsf_payment_method .bsf_payment_method_stripe_payment_gateway fieldset{
+	border:none;
+	border-radius:5px;
+	background:#fff;
+	width: 100%;
+	float: left;
+	padding:10px 0px;
+}
+.bsf-booking-form-inner-container li.bsf_payment_method .bsf_payment_method_stripe_payment_gateway fieldset .form-row{
+	width:98%;
+	margin:5px auto;
+}
+.bsf-booking-form-inner-container li.bsf_payment_method .bsf_payment_method_stripe_payment_gateway fieldset .bsf-stripe-elements-field{
+	width:99%;
+	margin:5px auto;
+}
+.bsf-booking-form-inner-container li.bsf_payment_method .bsf_payment_method_stripe_payment_gateway 
+fieldset .form-row label{
+	font-weight:normal;
+	font-size:14px;
+	font-family: 'Roboto', sans-serif;
+	color:#666 !important;
+	margin-left:0px;
+}
+
+.bsf-booking-form-inner-container li.bsf_payment_method .bsf_payment_method_stripe_payment_gateway 
+fieldset .form-row label span{
+	color:#f00;
+}
+
+.bsf-booking-form-inner-container .bsf_coupon_display{
+	width:70%;
+	float:left;
+	margin-left:2.5%;
+	margin-top:10px;    
+}
+.bsf-booking-form-inner-container .bsf_coupon_display input:focus,
+.bsf-booking-form-inner-container .bsf_coupon_display input:focus{
+	outline: none !important;
+}
+.bsf-booking-form-inner-container .bsf_coupon_display input[type='text']{
+	box-shadow: 0 -5px 10px 2px rgba(0, 0, 0, 0.03) inset !important;
+	width: 46% !important;
+	border: 1px solid #bbb !important;
+	border-radius: 5px !important;
+	height: 35px !important;
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+	font-weight:400 !important;
+	color:#666 !important;
+	background:#fff;
+	padding:0px 0px 0px 10px !important;
+	outline: none !important;
+	float:left;
+}
+#bsf_remove_coupon{
+	cursor:pointer;
+	color:#f00;
+	margin-right:10px;
+}
+#bsf_remove_coupon:hover{
+	font-weight:bold;
+}
+.bsf-booking-form-inner-container .bsf_coupon_display button{
+	color: #fff;
+	padding: 8px 15px !important;
+	border: none !important;
+	box-shadow: none !important;
+	position: relative;
+	width: auto !important;
+	height: auto !important;
+	text-shadow: none;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius:5px;
+	font-family: 'Roboto', sans-serif;
+	text-transform:none;
+	float:left;
+	cursor: pointer;
+	margin:0px 0px 0px 10px;
+}
+.bsf-booking-form-inner-container .bsf_coupon_display button:hover{
+	box-shadow:0 0 3px !important;
+}
+.bsf-booking-form-inner-container .bsf_coupon_display button:before{
+	content:'\f145';
+	z-index:9;
+	font-family: FontAwesome !important;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	padding-right:5px;
+}
+.bsf-booking-form-container .bsf-booking-form-inner-container table.bsf-booking-payment-table{
+	width:70%;
+	border-collapse: collapse;
+	border:1px solid #ccc;
+	float:left;
+	margin-left:2.5%;    
+}
+.ui-datepicker-header .ui-datepicker-prev .ui-icon{
+	background:url('../../../assets/images/arrow-101-16.png') no-repeat right center !important;
+}
+.ui-datepicker-header .ui-datepicker-next .ui-icon{
+	background:url('../../../assets/images/arrow-36-16.png') no-repeat right center !important;
+}
+table.bsf-extra-ervice-table{
+	width:95%;
+	margin-left:2.5%;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-collapse: collapse;
+	border:1px solid #ccc;
+	float:left;
+}
+table.bsf-extra-ervice-table thead{
+	background:#666;
+	text-align: center;
+}
+table.bsf-extra-ervice-table thead th{
+	background:#666;
+	color:#fff;
+	padding:10px 0px;
+	font-weight:600 !important;
+	font-size:14px !important;
+	text-transform:none;
+	margin:0;
+	letter-spacing: 0;
+	font-family: 'Roboto', sans-serif;
+	text-align:center;
+	border-right:1px solid #ccc;
+}
+table.bsf-extra-ervice-table tbody td{
+	color:#666;
+	padding:10px 0px;
+	font-weight:normal !important;
+	font-size:14px !important;
+	text-transform:none;
+	margin:0;
+	letter-spacing: 0;
+	font-family: 'Roboto', sans-serif;
+	text-align:center;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+table.bsf-extra-ervice-table tbody td label{
+	color:#666;
+	font-weight:normal !important;
+	font-size:14px !important;
+	text-transform:none;
+}
+table.bsf-extra-ervice-table tbody tr:nth-child(2n){
+	background:#f9f9f9;
+}
+table.bsf-extra-ervice-table tbody td img{
+	width:60px;
+	height:auto;
+	margin:0;
+	padding:0;
+	border-radius: 50%;
+}
+table.bsf-extra-ervice-table tbody td input[type='number'].bsf_extra_services_qty{
+	box-shadow: 0 -5px 10px 2px rgba(0, 0, 0, 0.03) inset !important;
+	width: 46% !important;
+	border: 1px solid #bbb !important;
+	border-radius: 5px !important;
+	height: 35px !important;
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+	font-weight:400 !important;
+	color:#666 !important;
+	background:#fff;
+	outline: none !important;
+	padding-left:5px;
+	margin:10px auto;
+}
+/*show/hide*/  
+.bsf_show{
+	display:block;
+}
+.bsf_hide{
+	display:none;
+}
+/*  Mobile responsive view  */
+
+@media only screen and (max-width: 768px){
+	.bsf-booking-form-container .bsf-booking-form-inner-container{
+		width: 100%;
+		float: left;
+		border-bottom:2px solid #666 !important;
+		border-left:2px solid #666 !important;
+		border-right:2px solid #666 !important;
+		border-top:2px solid #666 !important;
+		margin:0;
+		background:#fff;
+		border-radius:5px !important;   
+	}
+	.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row,
+	.bsf-booking-form-container .bsf-booking-form-inner-container .bsf_time_slots{
+		width:92%;
+		margin-left:4%;
+	}
+
+	.bsf-booking-form-container .bsf-booking-form-inner-container table.bsf-booking-payment-table, 
+	.bsf-booking-form-container .bsf-booking-form-inner-container table.bsf-booking-customer-info{
+		width:92% !important;
+		margin-left:4% !important;
+	}
+	.bsf-booking-form-inner-container .bsf_coupon_display, .bsf-booking-form-inner-container li.bsf_payment_method{
+		width:92%;
+		float:left;
+		margin-left:4%;    
+	}
+	.bsf-booking-form-container .bsf-booking-form-inner-container .bsf_booking_form_msg{
+		width:92%;
+		float:left;
+		margin-left:4%; 
+		margin-bottom:10px;
+	}
+	.bsf-booking-form-container .bsf-booking-form-inner-container h2, 
+	.bsf-booking-form-container .bsf-booking-form-inner-container p{
+		width:92%;
+		float:left;
+		margin-left:4%; 
+	}
+	.bsf-booking-form-inner-container li.bsf_payment_method .bsf_payment_method_stripe_payment_gateway 
+	fieldset .bsf-stripe-elements-field{
+		width:95%;
+	}
+	.bsf-booking-form-container .bsf-booking-form-inner-container 
+	.bsf-booking-form-row .bsf-booking-form-row-td{
+		width:99%;
+		float:left;
+	}
+	.bsf-booking-form-container .bsf_booking_prograss_bar_container{
+		display:none;
+	}
+	.bsf-booking-form-inner-container li.bsf_payment_method label .bsf_payment_method_icon{
+		margin-bottom:10px !important;
+		margin-top:10px;
+		position:relative;
+		display:block;
+		margin-left:0px;
+	}
+	.bsf-booking-form-inner-container .bsf_coupon_display input[type='text']{
+		width: 100% !important;
+	}    
+	.bsf-booking-form-inner-container .bsf_coupon_display button{
+		margin:10px 0px 0px 0px;
+	}
+	/*    Extra service mobile responsive*/
+	table.bsf-extra-ervice-table, 
+	table.bsf-extra-ervice-table tbody,
+	table.bsf-extra-ervice-table tbody tr{
+		display: block;
+		margin-bottom:15px;
+		padding:0px;
+		border:none !important;
+	}
+	table.bsf-extra-ervice-table tbody tr{
+		border:1px solid #666;
+	}
+	table.bsf-extra-ervice-table tbody td{
+		display:block;
+	} 
+	table.bsf-extra-ervice-table tbody tr:first-child{
+		display: block;
+	}
+	table.bsf-extra-ervice-table tbody td:nth-of-type(1){
+		border-top:1px solid #ccc;
+	}
+	table.bsf-extra-ervice-table thead th{
+		display:none;
+	}
+	table.bsf-extra-ervice-table tbody td{
+		width:100%;
+		padding: 0px;
+		color:#000;
+		display:table;
+		border-top:none;
+		border-bottom:1px solid #ccc;
+		word-wrap: normal;
+		word-break: break-all;
+		padding-left:50%;
+		text-align: left;
+		text-indent:10px;
+	}
+	table.bsf-extra-ervice-table tbody td:before{
+		display:table-cell;
+		text-align:left;
+		width:40%;
+		color:#fff;
+		padding: 10px;
+		font-weight:bold;
+		background:#666;
+		border-bottom:1px solid #ccc;
+	}
+	table.bsf-extra-ervice-table tbody td img{
+		width:40px;
+		height:auto;
+		border-radius:50%;
+		margin-bottom:10px;
+		margin-top:10px;
+	}
+	table.bsf-extra-ervice-table tbody td input[type='number'].bsf_extra_services_qty{
+		width: 85% !important;
+	}
+	table.bsf-extra-ervice-table tbody td:nth-of-type(1):before{
+		content:'Image'
+	}
+	table.bsf-extra-ervice-table tbody td:nth-of-type(2):before{
+		content:'Title'
+	}
+	table.bsf-extra-ervice-table tbody td:nth-of-type(3):before{
+		content:'Price'
+	}
+	table.bsf-extra-ervice-table tbody td:nth-of-type(4):before{
+		content:'Max-Quantity'
+	}
+
+	@media only screen and (max-width: 480px){
+
+		.bsf-booking-form-inner-container li.bsf_payment_method label{
+			margin-left:0px;
+		}
+	}
+	@media only screen and (max-width: 360px){
+		.bsf-booking-form-container .bsf-booking-form-inner-container .bsf-booking-form-row 
+		.bsf-booking-form-row-checkbox{
+			width:14%;
+			min-width:70px;
+		}
+		.bsf-booking-form-inner-container li.bsf_payment_method label .bsf_payment_method_icon img{
+			margin-bottom:10px;
+		}
+	}    

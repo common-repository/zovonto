@@ -1,0 +1,668 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+/*     Service tab design       */
+
+.bsf_services_wrapper{
+	width:100%;
+	float:left;
+	font-family: 'Roboto', sans-serif !important;
+}
+.bsf_services_wrapper .bsf_services_sidebar{
+	width:35%;
+	float:left;
+}
+.bsf_services_wrapper .bsf_services_list{
+	width:100%;
+	float:right;
+	margin-left:2%;
+	background:#f3f3f3;
+	/*    border:1px solid #ccc;*/
+	border-radius:5px;
+	margin-bottom:15px;
+}
+/*All services style*/
+
+.bsf_services_sidebar .bsf_all_services{
+	float:left;
+	background:#6e6c6a;
+	border-radius:5px;
+	margin-bottom:15px;
+	width:100%;
+	float:left;
+	min-height:50px;
+	cursor:pointer;
+}
+.bsf_services_sidebar .bsf_all_services h3{
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	padding-left:15px;
+	line-height:2.5em;
+	font-family: 'Roboto', sans-serif !important;
+	margin:0px;
+}
+
+/*Services Category design*/
+.bsf_services_sidebar .bsf_services_category_lists{
+	width:100%;
+	float:left;
+	margin-bottom:15px;
+	min-height:50px;
+	max-height:400px;
+	overflow-y: auto;
+}
+.bsf_services_sidebar .bsf_services_category_lists div.bsf_services_category:last-child h3.bsf_service_category_name{
+	margin-left:20px;
+}
+.bsf_services_sidebar .bsf_services_category_lists .bsf_services_category{
+	width:100%;
+	float:left;
+	background:#999;
+	border-radius:5px;
+	margin-bottom:15px;
+	width:100%;
+	float:left;
+	min-height:50px;
+}
+.bsf_services_sidebar .bsf_services_active{
+	background:#000070 !important;   
+}
+.bsf_services_sidebar .bsf_services_category_lists .bsf_services_category .bsf_services_panel_category_title{
+	width:70%;
+	float:left;
+	font-family: 'Roboto', sans-serif !important;
+}
+.bsf_services_sidebar .bsf_services_category_lists .bsf_services_category .bsf_services_panel_category_title{
+	width:68%;
+}
+.bsf_services_sidebar .bsf_services_category_lists .bsf_services_category .bsf_services_panel_category_title i,
+.bsf_services_wrapper .bsf_services_list .bsf_added_services .bsf_newly_added_services .bsf_services_name i{
+	color:#fff !important;
+	float:left;
+	font-size:24px;
+	margin:14px 15px;
+}
+.bsf_services_sidebar .bsf_services_category_lists .bsf_services_category .bsf_services_panel_category_title i.fa-bars{
+	cursor: move;
+}
+.bsf_services_sidebar .bsf_services_category_lists .bsf_services_category .bsf_services_panel_category_title h3{
+	color:#fff !important;
+	font-family: 'Roboto', sans-serif !important;
+	cursor:pointer;
+}
+
+.bsf_services_sidebar .bsf_services_category_lists .bsf_services_category .bsf_services_panel_category_tool{
+	width:32%;
+	float:left;
+}
+.bsf_services_sidebar .bsf_services_category_lists .bsf_services_category
+.bsf_services_panel_category_tool .bsf_services_panel_category_tool_menu{
+	float:right;
+	width:25%;
+}
+.bsf_services_sidebar .bsf_services_category_lists .bsf_services_category
+.bsf_services_panel_category_tool .bsf_services_panel_category_tool_menu i{
+	color:#020f2c !important;
+	float:left;
+	font-size:20px;
+	width:24px;
+	height:24px;
+	margin:15px 0px;
+	background:#fff;
+	border-radius: 50%;
+	text-align:center;
+	line-height: 1.3em;
+	display:block;
+	transition: 0.7s;
+	-webkit-transition: 0.7s;
+	-o-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-ms-transition: 0.7s;
+}
+.bsf_services_sidebar .bsf_services_category_lists .bsf_services_category .bsf_services_panel_category_tool 
+.bsf_services_panel_category_tool_menu i:hover{
+	transition: 0.7s;
+	-webkit-transition: 0.7s;
+	-o-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-ms-transition: 0.7s;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+}
+.bsf_services_panel_category_tool .bsf_services_panel_category_tool_menu i.fa-ellipsis-v{
+	cursor: pointer;
+}
+.bsf_services_sidebar .bsf_services_category_lists .bsf_services_category .bsf_services_panel_category_tool 
+.bsf_services_panel_category_tool_menus{
+	float:left;
+	display:none;
+	width:75%;
+}
+.bsf_services_sidebar .bsf_services_category_lists .bsf_services_category .bsf_services_panel_category_tool 
+.bsf_services_panel_category_tool_menus ul{
+	float:left;
+	display:block;
+	width:100%;
+	margin-bottom:0px;
+}
+.bsf_services_sidebar .bsf_services_category_lists .bsf_services_category .bsf_services_panel_category_tool 
+.bsf_services_panel_category_tool_menus ul li{
+	list-style: none;
+	float:right;
+}
+.bsf_services_sidebar .bsf_services_category_lists .bsf_services_category .bsf_services_panel_category_tool 
+.bsf_services_panel_category_tool_menus ul li a{
+	text-decoration: none;
+	color:#020f2c;
+}
+.bsf_services_sidebar .bsf_services_category_lists .bsf_services_category .bsf_services_panel_category_tool
+.bsf_services_panel_category_tool_menus ul li a i{
+	color:#fff !important;
+	float:left;
+	font-size:20px;
+	margin:0px 5px;
+	text-align:center;
+	line-height: 1.3em;
+	display:block;
+	transition: 0.7s;
+	-webkit-transition: 0.7s;
+	-o-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-ms-transition: 0.7s;
+}
+/*   Add category button design  */
+
+.bsf_services_sidebar .bsf_services_add_category_button{
+	width:100%;
+	float:left;
+	margin:5px 0px 5px 0px;
+	position: relative
+}
+.bsf_services_sidebar .bsf_services_add_category_button .bsf_add_new_services_category{
+	float:right;
+	width:70%;
+	position: relative;
+}
+.bsf_services_sidebar .bsf_services_add_category_button .bsf_add_new_services_category .bsf_add_new_services_category_btn{
+	color:#fff;
+	padding:10px 25px;
+	border:none !important;
+	box-shadow:none !important;
+	position: relative;
+	background: #138f30 !important;
+	width:auto !important;
+	height:auto !important;
+	float:right;
+	text-shadow:none;
+	font-size: 14px;
+	font-weight:bold;
+	border-radius:5px;
+}
+.bsf_services_sidebar .bsf_services_add_category_button .bsf_add_new_services_category .bsf_add_new_services_category_btn:hover
+{
+	box-shadow:0 0 3px #000 !important;
+}
+
+/*Add Category and Add staff popup design*/
+
+.bsf_services_sidebar .bsf_services_add_category_button .bsf_new_services_category_form{
+	position:absolute;
+	right:0px;
+	border:1px solid #ccc;
+	background:#fff;
+	border-radius:5px;
+	display:none;
+	z-index: 999;
+	opacity: 1;
+	width:300px;
+	min-height:145px;
+}
+.bsf_services_sidebar .bsf_services_add_category_button .bsf_new_services_category_form{
+	margin-top:-200px;
+}
+.bsf_services_sidebar .bsf_services_add_category_button .bsf_new_services_category_form .bsf_close_services_category_popup{
+	width:100%;
+	display:block;
+	float:left;
+	padding:5px 0px;
+	border-bottom:1px solid #ccc;
+}
+.bsf_services_sidebar .bsf_services_add_category_button .bsf_new_services_category_form .bsf_close_services_category_popup i{
+	color: #bbb;
+	font-size: 22px;
+	float: right;
+	margin-right: 8px;
+	margin-top: 2px;
+	cursor: pointer;
+}
+.bsf_services_sidebar .bsf_services_add_category_button .bsf_new_services_category_form .bsf_close_services_category_popup i:hover{
+	color:#f00;
+}
+.bsf_services_sidebar .bsf_services_add_category_button .bsf_new_services_category_form:before, 
+.bsf_services_sidebar .bsf_services_add_category_button .bsf_new_services_category_form:after{
+	top: 100%;
+	left: 80%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.bsf_services_sidebar .bsf_services_add_category_button .bsf_new_services_category_form:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-top-color: #fff;
+	border-width: 12px;
+	margin-left: -12px;
+}
+.bsf_services_sidebar .bsf_services_add_category_button .bsf_new_services_category_form:before {
+	border-color: rgba(204, 204, 204, 0);
+	border-top-color: #ccc;
+	border-width: 13px;
+	margin-left: -13px;
+}
+.bsf_services_sidebar .bsf_services_add_category_button .bsf_new_services_category_form h3{
+	color:#222;
+	padding-left:15px;
+	margin-top:15px;
+	float:left;
+	font-family: 'Roboto', sans-serif !important;
+}
+.bsf_services_sidebar .bsf_services_add_category_button .bsf_new_services_category_form input[type='text']{
+	width:85%;
+	height:35px;
+	border-radius:5px;
+	margin-left:15px;
+}
+.bsf_services_info_row .select2-container{
+	width:100% !important;
+}
+.bsf_services_sidebar .bsf_services_add_category_button .bsf_new_services_category_form .bsf_add_services_category,
+.bsf_services_wrapper .bsf_services_list .bsf_all_services_title button.bsf_add_service, .bsf_services_info_row .bsf_save_services{
+	font-family: 'Roboto', sans-serif;
+	padding: 5px 10px;
+	background: #138f30;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	box-shadow: none;
+	cursor: pointer;
+	margin:15px 0px 10px 15px;
+	width:auto !important;
+	height:auto !important;
+	text-shadow:none;
+	font-size: 14px;
+	font-weight:bold;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+/* Services added section design */
+
+.bsf_services_wrapper .bsf_services_list .bsf_all_services_title{
+	float:left;
+	width:96%;
+	margin-left:2%;
+	border-bottom:1px dashed #222; 
+	padding:15px 0px;
+	margin-bottom:15px;
+}
+.bsf_services_wrapper .bsf_services_list .bsf_all_services_title label.bsf_services_list_title{
+	width:50%;
+	float:left;
+	font-size:18px;
+	color:#000070;
+	font-family: 'Roboto', sans-serif !important;
+	margin-top:10px;
+}
+.bsf_services_wrapper .bsf_services_list .bsf_all_services_title button.bsf_add_service, .bsf_services_info_row .bsf_save_services{
+	float:right;
+	padding: 10px 15px;
+	margin:0px;
+}
+.bsf_services_wrapper .bsf_services_list .bsf_added_services{
+	float:left;
+	width:96%;
+	margin-left:2%;
+	margin-bottom:15px;    
+}
+.bsf_services_wrapper .bsf_services_list .bsf_added_services .bsf_newly_added_services{
+	float:left;
+	width:98%;
+	border:1px solid #6e6c6a;
+	border-radius:5px;
+	background:#fff;
+	margin-bottom:10px;
+}
+.bsf_services_wrapper .bsf_services_list .bsf_added_services .bsf_newly_added_services .bsf_services_name{
+	float:left;
+	background:#6e6c6a;
+	width:100%;
+	float:left;
+	min-height:50px;
+}
+.bsf_services_wrapper .bsf_services_list .bsf_added_services .bsf_newly_added_services .bsf_services_name i.fa-bars{
+	cursor: move;
+}
+.bsf_services_wrapper .bsf_services_list .bsf_added_services .bsf_newly_added_services .bsf_services_name i.fa-chevron-circle-down{
+	cursor: pointer;
+}
+.bsf_services_wrapper .bsf_services_list .bsf_added_services .bsf_newly_added_services .bsf_services_name input[type='checkbox']{
+	float:right;
+	margin-top: 18px;
+	margin-right: 15px;
+}
+.bsf_services_wrapper .bsf_services_list .bsf_added_services .bsf_newly_added_services .bsf_services_name h3{
+	color:#fff !important;
+	font-family: 'Roboto', sans-serif !important; 
+	float:left;
+}
+.bsf_services_wrapper .bsf_services_list .bsf_added_services .bsf_newly_added_services .bsf_services_name label.bsf_switch{
+	float:right !important;
+	margin-top: 12px;
+}
+.bsf_services_wrapper .bsf_services_list .bsf_added_services .bsf_newly_added_services .bsf_services_name input:checked + .bsf_slider
+{
+	background-color: #00e359;
+	border: 1px solid rgba(0, 162, 63,1)
+}
+.bsf_services_wrapper .bsf_services_list .bsf_added_services .bsf_newly_added_services .bsf_services_name i.fa-chevron-circle-down{
+	float:right;
+}
+.bsf_services_info{
+	width:100%;
+	float:left;
+	margin-bottom:15px;
+	margin-top:15px;
+	display:none;
+}
+.bsf_services_info .bsf_services_info_row{
+	width:92%;
+	margin-left:25px;
+	float:left;
+}
+.bsf_services_info .bsf_services_info_row label,
+.bsf_services_info .bsf_services_info_row input{
+	font-size:14px;
+	width:100%;
+	float:left;
+	margin:5px 0px; 
+	color:#000;
+}
+.bsf_services_info .bsf_services_info_row input[type='checkbox']{
+	width:auto !important;
+}
+.bsf_services_info .bsf_services_info_row input[type='text'],
+.bsf_services_info .bsf_services_info_row input[type='number'],
+.bsf_services_info .bsf_services_info_row input[type='email'],
+.bsf_services_info .bsf_services_info_row input[type='url'],
+.bsf_services_info .bsf_services_info_row textarea,
+.bsf_services_info .bsf_services_info_row select{
+	box-shadow: 0 -5px 10px 2px rgba(0, 0, 0, 0.03) inset;
+	border: none;
+	width:100%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	height: 35px !important;
+	margin:5px 0px; 
+	font-family: 'Roboto', sans-serif !important; 
+}
+.bsf_services_info .bsf_services_info_row textarea{
+	min-height:100px;
+}
+.bsf_services_info .bsf_services_info_row select{
+	background:#fff url('../../../assets/images/others/arrow-217-10.png') no-repeat right 10px center ;
+	-moz-appearance: none;
+	position:relative;
+	appearance: none;
+	-webkit-appearance:none;
+}
+.bsf_services_info_row .bsf_save_services{
+	margin-top:10px !important;
+}
+.bsf_delete_services{
+	float:left;
+	width:100%;
+	padding-top:10px;
+	border-top:1px solid #222;
+}
+.bsf_delete_services .bsf_delete_services_btn{
+	margin-bottom:15px !important;
+	margin-right:15px !important;
+	font-size: 14px;
+	float:right;
+	color:#fff;
+	border:none;
+}
+.bsf_delete_services .bsf_delete_services_btn:hover, .bsf_add_service:hover{
+	box-shadow:0 0 3px #000 !important;
+}
+.bsf_services_panel_category_title input.bsf_update_service_category_name{
+	box-shadow: 0 -5px 10px 2px rgba(0, 0, 0, 0.03) inset;
+	border: none;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	height: 35px !important;
+	margin:9px 0px;
+	display:none;
+}
+.bsf_panel_category_title input.bsf_update_category_name{
+	box-shadow: 0 -5px 10px 2px rgba(0, 0, 0, 0.03) inset;
+	border: none;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	height: 35px !important;
+	margin:9px 0px;
+	display:none;
+}
+
+/*   Extra service design   */
+
+.bsf_extra_services_info{
+	width:100%;
+	float:left;
+}
+.bsf_extra_services_data{
+	width:100%;
+	float:left;
+	border:1px solid #dbdbdb;
+	background:#f3f3f3;
+	border-radius:5px;
+	margin-bottom:10px;
+}
+.bsf_extra_services_data .bsf_extra_services_name{
+	width:100%;
+	float:left;
+	border-bottom:1px solid #dbdbdb;
+}
+.bsf_extra_services_data .bsf_extra_services_name i.bsf_drag_extra_services{
+	float:left;
+	color:#000;
+	font-size:18px;
+	margin-right:10px;
+	margin-top:19px; 
+	margin-left:20px; 
+	cursor: move;
+}
+.bsf_extra_services_name span i.fa-times{
+	color:#000;
+	margin-right:20px;
+	margin-top:20px; 
+	font-size:18px;
+	cursor: pointer;
+	float:right;
+}
+.bsf_extra_services_name span i.fa-times:hover{
+	color:#f00;
+}
+.bsf_extra_services_data .bsf_extra_services_name h3{
+	color:#000;
+	font-size:18px;
+	font-family: 'Roboto', sans-serif !important; 
+	font-weight:500;
+	float:left;
+	margin-left:15px
+}
+.bsf_extra_services_data table{
+	width:100%;
+}
+.bsf_extra_services_data table th,
+.bsf_extra_services_data table td{
+	padding:5px;
+	font-family: 'Roboto', sans-serif !important; 
+}
+.bsf_extra_services_data table td input[type='number']{
+	width:70px !important;
+}
+.bsf_extra_services_data table td select{
+	width:100px !important;
+}
+.bsf_extra_services_data table td .bsf_extra_services_image{
+	width:50px;
+	height:auto;
+	float:left;
+	border:1px solid #222; 
+	border-radius:5px;
+}
+.bsf_extra_services_data table td .bsf_extra_services_image img{
+	width:100%;
+	height:auto;
+	border-bottom:1px solid #222; 
+	padding-bottom:5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.bsf_extra_services_data table td .bsf_extra_services_image i{
+	width:25px;
+	float:left;
+	text-align: center;
+}
+
+.bsf_add_extra_services{
+	color:#138f30;
+	padding:10px 20px;
+	border:1px solid #138f30 !important;
+	box-shadow:none !important;
+	position: relative;
+	background:#fff !important;
+	width:auto !important;
+	height:auto !important;
+	float:left;
+	text-shadow:none;
+	font-size: 14px;
+	font-weight:bold;
+	border-radius:5px;
+}
+.bsf_add_extra_services i{
+	margin-right:5px;
+}
+.bsf_add_extra_services:hover{
+	background:#138f30 !important;
+	color:#fff;
+}
+
+.bsf_add_working_hours{
+	color:#138f30;
+	padding:10px 20px;
+	border:1px solid #138f30 !important;
+	box-shadow:none !important;
+	position: relative;
+	background:#fff !important;
+	width:auto !important;
+	height:auto !important;
+	float:left;
+	text-shadow:none;
+	font-size: 14px;
+	font-weight:bold;
+	border-radius:5px;
+}
+.bsf_add_working_hours i{
+	margin-right:5px;
+}
+.bsf_add_working_hours:hover{
+	background:#138f30 !important;
+	color:#fff;
+}
+
+.bsf_add_working_hours_wrapper{
+	width: 94%;
+	float: left;
+	margin: 10px 0px 20px 25px;
+}
+.bsf_service_working_hours_tab_content{
+	width: 100%;
+	float: left;
+}
+.bsf_add_working_hours_wrapper label{
+	font-size: 14px;
+	width: 100%;
+	float: left;
+	margin: 5px 0px;
+	color: #000;         
+}
+.bsf_working_hours_rows{
+	width: 100%;
+	float: left;
+}
+.bsf_working_hours_rows h3 {
+	border-bottom: 1px dashed #138f30;
+	padding-bottom: 15px;
+}
+.bsf_working_hours_select{
+	margin-top: 10px;
+	width: 20%;
+	float: left;
+}
+.bsf_working_hours_select select{
+	height: 35px !important;
+	border: 1px solid #333;
+	border-radius: 5px;
+	background: #fff url('../../../assets/images/others/arrow-217-10.png') no-repeat right 10px center;
+	width: 100%;
+	-moz-appearance: none;
+	position: relative;
+	appearance: none;
+	-webkit-appearance: none;
+}
+.bsf_working_hours_label{
+	margin-top: 10px;
+	width: 5%;
+	float: left;
+}
+.bsf_working_hours_label span{
+	font-size: 14px;
+	color: #000;
+	text-align: center;
+	display: block;
+	line-height: 2.5em; 
+}
+.bsf_working_hour_breaks .bsf_service_add_breaks, 
+.bsf_service_delete_breaks{
+	font-family: 'Roboto', sans-serif;
+	padding: 9px 10px;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	box-shadow: none;
+	cursor: pointer;
+	margin: 11px 0px 10px 15px;
+	width: 130px !important;
+	height: auto !important;
+	text-shadow: none;
+	font-size: 14px;   
+}
+.bsf_service_delete_breaks{
+	background: #f05050 !important;
+	margin: 0px 0px 10px 12px !important
+}
+.bsf_service_add_breaks{
+	background: #138f30;
+}
+
+.bsf_service_delete_breaks i, .bsf_service_add_breaks i{
+	margin-right:5px;
+}
+
+

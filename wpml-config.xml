@@ -1,0 +1,68 @@
+<wpml-config>
+    <admin-texts>
+        <!-- Company label-->
+        <key name="bsf_settings_company_name"/>
+        <key name="bsf_settings_company_address"/>
+        <key name="bsf_settings_company_phone"/>
+        <key name="bsf_settings_company_website"/>
+        <!-- Company label-->
+        
+        <!-- Gateway-->
+        <key name="bsf_offline_payment_gateway_title"/>
+        <key name="bsf_offline_payment_gateway_description"/>
+        <!-- Gateway-->
+        
+        <!-- Booking Form-->
+        
+        <!-- Service Step-->
+        <key name="bsf_settings_service_selection_step_label"/>
+        <key name="bsf_settings_service_selection_step_desc"/>
+        <key name="bsf_settings_service_selector_label"/>
+        <key name="bsf_settings_calendar_selector_label"/>
+        <key name="bsf_settings_start_time_label"/>
+        <key name="bsf_settings_end_time_label"/>
+        <!-- Service Step-->
+        
+        <!-- Time Step-->
+        <key name="bsf_settings_time_selection_step_label"/>
+        <key name="bsf_settings_time_selection_step_desc"/>
+        <key name="bsf_settings_time_selection_no_items_message"/>
+        <!-- Time Step-->
+        
+        <!-- User Details Step-->
+        <key name="bsf_settings_user_details_step_label"/>
+        <key name="bsf_settings_user_details_step_desc"/>
+        <key name="bsf_settings_first_name_label"/>
+        <key name="bsf_settings_last_name_label"/>
+        <key name="bsf_settings_phone_label"/>
+        <key name="bsf_settings_email_label"/>
+        <key name="bsf_settings_first_name_placeholder"/>
+        <key name="bsf_settings_last_name_placeholder"/>
+        <key name="bsf_settings_phone_placeholder"/>
+        <key name="bsf_settings_email_placeholder"/>
+        <key name="bsf_settings_notes_field_label"/>
+        <!-- User Details Step-->
+        
+        <!-- Payment Step-->
+        <key name="bsf_settings_payment_step_label"/>
+        <key name="bsf_settings_payment_step_desc"/>
+        <!-- Payment Step-->
+        
+        <!-- Completion Step-->
+        <key name="bsf_settings_completion_step_label"/>
+        <key name="bsf_settings_completion_step_desc"/>
+        <!-- Completion Step-->
+        
+        <!-- Booking Form-->
+        
+        <!-- Notifications -->
+        <key name="bsf_staff_appointment_approved_subject"/>
+        <key name="bsf_staff_appointment_approved_message"/>
+                
+        <key name="bsf_customer_appointment_approved_subject"/>
+        <key name="bsf_customer_appointment_approved_message"/>
+        
+        <!-- Notifications -->
+        
+    </admin-texts>
+</wpml-config>
